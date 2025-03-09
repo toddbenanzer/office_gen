@@ -1,0 +1,19 @@
+{
+    "terminal.integrated.profiles.linux": {
+        "zsh (login)": {
+          "path": "zsh",
+          "args": ["-l"]
+        }
+    },
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "debug.terminal.clearBeforeReusing": true,
+    "python.languageServer": "Pylance",
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=E402,F841,F401,E302,E305",
+    ],
+}

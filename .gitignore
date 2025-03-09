@@ -1,0 +1,7 @@
+*.pytest_cashe
+*.xml
+*.rels
+*.zip
+*.jpeg
+*.bin
+*.xlsx
